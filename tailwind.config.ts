@@ -15,6 +15,9 @@ const config: Config = {
       },
     },
   },
-  plugins: [],
+  plugins: [
+    require('tailgrids/plugin'),
+    require('@tailwindcss/forms'),
+  ],
 };
 export default config;

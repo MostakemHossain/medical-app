@@ -1,8 +1,9 @@
+import Hero from "@/components/Frontend/Hero";
 
 export default function Home() {
   return (
-    <div>
-      hi
-    </div>
+    <section className="">
+      <Hero/>
+    </section>
   );
 }
